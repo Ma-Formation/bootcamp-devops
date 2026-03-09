@@ -1,0 +1,17 @@
+# Ansible
+*.retry
+ansible/group_vars/*/vault.yml
+ansible/host_vars/*/vault.yml
+.vault_pass
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+
+# OS
+.DS_Store
+*.swp
